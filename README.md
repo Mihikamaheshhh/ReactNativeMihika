@@ -1,50 +1,156 @@
-# Welcome to your Expo app 👋
+🏫 School Management System
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack School Management System built using modern web and mobile technologies.
+This project provides an Admin Dashboard, Student/Teacher Management, Notices, and AI-powered features with both Web and Mobile UI.
 
-## Get started
+🚀 Tech Stack
+🎨 Frontend (Web)
 
-1. Install dependencies
+HTML
 
-   ```bash
-   npm install
-   ```
+CSS
 
-2. Start the app
+JavaScript
 
-   ```bash
-   npx expo start
-   ```
+React.js
 
-In the output, you'll find options to open the app in a
+⚙️ Backend
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Node.js
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Express.js
 
-## Get a fresh project
+🗄️ Database
 
-When you're ready, run:
+MongoDB
 
-```bash
-npm run reset-project
-```
+📱 Mobile UI
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+React Native
 
-## Learn more
+Android Studio
 
-To learn more about developing your project with Expo, look at the following resources:
+🛠 Development Tools
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+VS Code – Main development IDE
 
-## Join the community
+Android Studio – Mobile app development and testing
 
-Join our community of developers creating universal apps.
+Git & GitHub – Version control
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MongoDB Compass – Database management
+
+✨ Features
+📊 Admin Dashboard
+
+View school statistics
+
+Manage students, teachers, classes, and subjects
+
+Fees collection overview
+
+👨‍🎓 Student Management
+
+Add / Edit / Delete students
+
+Manage student records
+
+👩‍🏫 Teacher Management
+
+Add and manage teachers
+
+Assign subjects and classes
+
+📢 Notice Board
+
+Publish school notices
+
+Students and teachers can view updates
+
+📱 Mobile Application
+
+Built with React Native
+
+Works on Android devices
+
+Provides mobile access to the system
+
+🤖 AI Features
+
+This system includes AI-powered tools:
+
+🧠 AI Attendance Bot
+
+Automatically manages attendance
+
+Helps reduce manual work
+
+📢 AI Notice Board
+
+AI-assisted notice generation and management
+
+📈 AI Prediction Tool
+
+Predicts academic insights or trends using data
+
+Helps administrators make better decisions
+
+📂 Project Structure
+School-Management-System
+│
+├── frontend/        # React Web Application
+│
+├── backend/         # Node.js + Express API
+│
+├── database/        # MongoDB configuration
+│
+├── mobile-app/      # React Native Android App
+│
+└── README.md
+⚡ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/school-management-system.git
+cd school-management-system
+2️⃣ Install Backend Dependencies
+cd backend
+npm install
+
+Run backend:
+
+npm start
+3️⃣ Install Frontend Dependencies
+cd frontend
+npm install
+npm start
+4️⃣ Run Mobile App
+cd mobile-app
+npm install
+npx react-native run-android
+
+Open using Android Studio Emulator or a physical Android device.
+
+📸 Screens
+
+Admin Dashboard
+
+Student Management
+
+Teacher Management
+
+Notice Board
+
+Mobile App UI
+
+(Add screenshots here later)
+
+🔮 Future Improvements
+
+Parent portal
+
+Online fee payment
+
+AI chatbot for student queries
+
+Real-time notifications
+
+Cloud deployment
